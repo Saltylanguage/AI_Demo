@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{ccd379ff-7746-4b47-b1f5-e0216c80a764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{08aacbb5-01c1-437c-82aa-ad218591f892}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Bezier.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Hermite.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Eigen.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CavariantMatrix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygons.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Eigen.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{72c764d0-2105-4216-8c78-87bfdcb0ad6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{0cedfe3a-cb54-48c7-9495-fb9cc00902c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI_Library.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="PathingCalculator.h" />
+    <ClInclude Include="TileMapCalculator.h" />
+    <ClInclude Include="Pathfinder.h" />
+    <ClInclude Include="Agent.h" />
+    <ClInclude Include="SteeringModule.h" />
+    <ClInclude Include="SteeringBehavior.h" />
+    <ClInclude Include="AI_World.h" />
+    <ClInclude Include="SeekBehavior.h" />
+    <ClInclude Include="PerceptionModule.h" />
+    <ClInclude Include="Sensor.h" />
+    <ClInclude Include="FleeBehavior.h" />
+    <ClInclude Include="PursuitBehavior.h" />
+    <ClInclude Include="PartitionGrid.h" />
+    <ClInclude Include="ArriveBehavior.h" />
+    <ClInclude Include="WanderBehavior.h" />
+    <ClInclude Include="PathPlanner.h" />
+    <ClInclude Include="DecisionModule.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="GoalComposite.h" />
+    <ClInclude Include="Strategy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Pathfinder.cpp" />
+    <ClCompile Include="PerceptionModule.cpp" />
+    <ClCompile Include="SteeringModule.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GoalComposite.inl" />
+    <None Include="DecisionModule.inl" />
+  </ItemGroup>
+</Project>
